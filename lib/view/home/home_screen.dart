@@ -5,6 +5,25 @@ class HomeScren extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+          title: CircleAvatar(
+            child: IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.mail),
+            ),
+          ),
+          actions: [
+            CircleAvatar(
+              child: IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.mail),
+              ),
+            ),
+          ]),
+      body: Column(
+        children: [],
+      ),
+    );
   }
 }
