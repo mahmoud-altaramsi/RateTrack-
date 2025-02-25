@@ -78,6 +78,7 @@ flutter:
        fonts:
          - asset: assets/fonts/lnter/Inter_18pt-Regular.ttf
          - asset: assets/fonts/lnter/Inter_18pt-SemiBold.ttf
+         - asset: assets/fonts/lnter/Inter_18pt-Bold.ttf
 
 
   #       - asset: fonts/Schyler-Italic.ttf
